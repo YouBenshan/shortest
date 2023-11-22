@@ -1,15 +1,19 @@
 package you.bs.shortest.online;
 
-import you.bs.shortest.common.Level;
-import you.bs.shortest.common.Tnr;
 import it.unimi.dsi.fastutil.ints.IntArrayList;
 import it.unimi.dsi.fastutil.ints.IntList;
+import you.bs.shortest.common.Level;
+import you.bs.shortest.common.Tnr;
+
+/**
+ * @author You Benshan
+ */
 
 public class TnrRouter {
     private final Tnr tnr;
     private final ChRouter chRouter;
     private final int size;
-    private int localSize;
+    private final int localSize;
 
     public TnrRouter(Tnr tnr) {
         this.tnr = tnr;

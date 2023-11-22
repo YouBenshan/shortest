@@ -3,6 +3,10 @@ package you.bs.shortest.offline.util;
 import java.util.Arrays;
 import java.util.IntSummaryStatistics;
 
+/**
+ * @author You Benshan
+ */
+
 public class CommonUtil {
     private CommonUtil() {
     }

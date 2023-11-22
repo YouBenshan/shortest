@@ -3,6 +3,10 @@ package you.bs.shortest.online;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+/**
+ * @author You Benshan
+ */
+
 @AllArgsConstructor
 @Getter
 public class Path {

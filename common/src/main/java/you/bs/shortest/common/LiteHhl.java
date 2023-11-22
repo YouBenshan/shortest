@@ -5,6 +5,10 @@ import lombok.Getter;
 
 import java.util.Arrays;
 
+/**
+ * @author You Benshan
+ */
+
 @AllArgsConstructor
 @Getter
 public class LiteHhl {

@@ -1,5 +1,6 @@
 package you.bs.shortest.offline.util;
 
+
 import it.unimi.dsi.fastutil.doubles.DoubleDoublePair;
 import org.jgrapht.Graph;
 import org.jgrapht.alg.util.Triple;
@@ -12,8 +13,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * @author You Benshan
+ */
 public class GraphGenerater {
-
+    private GraphGenerater(){
+    }
     public static List<Triple<Integer, Integer, DoubleDoublePair>> generate(Graph<Integer, DefaultWeightedEdge> graph) {
         List<Triple<Integer, Integer, DoubleDoublePair>> list = new ArrayList<>();
         for (DefaultWeightedEdge e : graph.edgeSet()) {

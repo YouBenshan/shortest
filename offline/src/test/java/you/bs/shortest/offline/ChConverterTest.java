@@ -1,8 +1,6 @@
 package you.bs.shortest.offline;
 
-import you.bs.shortest.online.ChRouter;
-import you.bs.shortest.online.Path;
-import you.bs.shortest.offline.util.GraphGenerater;
+
 import it.unimi.dsi.fastutil.doubles.DoubleDoublePair;
 import org.jgrapht.Graph;
 import org.jgrapht.GraphPath;
@@ -12,12 +10,18 @@ import org.jgrapht.alg.util.Triple;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.junit.Assert;
 import org.junit.Test;
+import you.bs.shortest.offline.util.GraphGenerater;
+import you.bs.shortest.online.ChRouter;
+import you.bs.shortest.online.Path;
 
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
 
+/**
+ * @author You Benshan
+ */
 public class ChConverterTest {
 
     @Test

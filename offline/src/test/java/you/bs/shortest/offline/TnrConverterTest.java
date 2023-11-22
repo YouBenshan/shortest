@@ -1,20 +1,24 @@
 package you.bs.shortest.offline;
 
-import you.bs.shortest.common.RouteCh;
-import you.bs.shortest.common.Tnr;
-import you.bs.shortest.offline.util.GraphGenerater;
-import you.bs.shortest.online.ChRouter;
-import you.bs.shortest.online.Path;
-import you.bs.shortest.online.TnrRouter;
+
 import it.unimi.dsi.fastutil.doubles.DoubleDoublePair;
 import org.jgrapht.Graph;
 import org.jgrapht.alg.util.Triple;
 import org.jgrapht.graph.DefaultWeightedEdge;
 import org.junit.Assert;
 import org.junit.Test;
+import you.bs.shortest.common.RouteCh;
+import you.bs.shortest.common.Tnr;
+import you.bs.shortest.offline.util.GraphGenerater;
+import you.bs.shortest.online.ChRouter;
+import you.bs.shortest.online.Path;
+import you.bs.shortest.online.TnrRouter;
 
 import java.util.List;
 
+/**
+ * @author You Benshan
+ */
 public class TnrConverterTest {
     @Test
     public void testRandom() {

@@ -1,10 +1,14 @@
 package you.bs.shortest.common;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.io.Serializable;
 
+/**
+ * @author You Benshan
+ */
 @AllArgsConstructor
 @Getter
 public class Hhl implements Serializable {

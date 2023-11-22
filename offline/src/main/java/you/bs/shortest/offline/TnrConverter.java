@@ -1,23 +1,27 @@
 package you.bs.shortest.offline;
 
-import you.bs.shortest.common.Hhl;
-import you.bs.shortest.common.Level;
-import you.bs.shortest.common.RouteCh;
-import you.bs.shortest.common.Tnr;
-import you.bs.shortest.offline.util.CommonUtil;
-import you.bs.shortest.online.HhlDistancer;
+
 import it.unimi.dsi.fastutil.Pair;
 import it.unimi.dsi.fastutil.ints.IntArrayList;
 import it.unimi.dsi.fastutil.ints.IntList;
 import it.unimi.dsi.fastutil.ints.IntOpenHashSet;
 import it.unimi.dsi.fastutil.ints.IntSet;
 import org.jheaps.tree.PairingHeap;
+import you.bs.shortest.common.Hhl;
+import you.bs.shortest.common.Level;
+import you.bs.shortest.common.RouteCh;
+import you.bs.shortest.common.Tnr;
+import you.bs.shortest.offline.util.CommonUtil;
+import you.bs.shortest.online.HhlDistancer;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Logger;
 
+/**
+ * @author You Benshan
+ */
 public class TnrConverter {
     private final RouteCh ch;
     private final Hhl hhl;

@@ -1,9 +1,6 @@
 package you.bs.shortest.offline;
 
-import you.bs.shortest.common.Level;
-import you.bs.shortest.common.RouteCh;
-import you.bs.shortest.offline.util.CommonUtil;
-import you.bs.shortest.offline.util.GraphUtil;
+
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Table;
 import it.unimi.dsi.fastutil.Pair;
@@ -18,13 +15,19 @@ import lombok.Getter;
 import org.jgrapht.alg.util.Triple;
 import org.jheaps.AddressableHeap;
 import org.jheaps.array.DaryArrayAddressableHeap;
+import you.bs.shortest.common.Level;
+import you.bs.shortest.common.RouteCh;
+import you.bs.shortest.offline.util.CommonUtil;
+import you.bs.shortest.offline.util.GraphUtil;
 
 import java.util.*;
 import java.util.logging.Logger;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-
+/**
+ * @author You Benshan
+ */
 public class ChConverter<V extends Comparable<V>> {
     private static final Random RANDOM = new Random();
     private final int maxHop;

@@ -1,9 +1,13 @@
 package you.bs.shortest.common;
 
+
 import lombok.Getter;
 
 import java.io.Serializable;
 
+/**
+ * @author You Benshan
+ */
 @Getter
 public class Tnr implements Serializable {
     private final RouteCh routeCh;

@@ -1,7 +1,11 @@
 package you.bs.shortest.online;
 
-import you.bs.shortest.common.Hhl;
 import it.unimi.dsi.fastutil.doubles.DoubleDoublePair;
+import you.bs.shortest.common.Hhl;
+
+/**
+ * @author You Benshan
+ */
 
 public class HhlDistancer {
     private final Hhl.Label[] upIns;

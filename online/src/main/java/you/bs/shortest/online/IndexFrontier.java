@@ -1,10 +1,14 @@
 package you.bs.shortest.online;
 
-import you.bs.shortest.common.Level;
 import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 import lombok.AllArgsConstructor;
 import org.jheaps.AddressableHeap;
 import org.jheaps.array.DaryArrayAddressableHeap;
+import you.bs.shortest.common.Level;
+
+/**
+ * @author You Benshan
+ */
 
 public class IndexFrontier {
     final DaryArrayAddressableHeap<Double, Record> heap = new DaryArrayAddressableHeap<>(4);

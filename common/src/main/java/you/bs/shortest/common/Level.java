@@ -1,11 +1,15 @@
 package you.bs.shortest.common;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.io.Serializable;
 
+/**
+ * @author You Benshan
+ */
 @AllArgsConstructor
 @Getter
 @Setter
