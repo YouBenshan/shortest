@@ -5,4 +5,4 @@ algorithms: [Contraction hierarchies](https://en.wikipedia.org/wiki/Contraction_
 
 some code is inspired by [jGrapht](https://github.com/jgrapht/jgrapht/) and improved for better performance using [fastutil](https://github.com/vigna/fastutil) and multi-thread.
 
-Data used in Test（offline/src/test/java/you/bs/shortest/offline/GrTest.java）is from [Dimacs 9 Challenge](http://www.diag.uniroma1.it/challenge9/download.shtml). 
+Data used in Test class (offline/src/test/java/you/bs/shortest/offline/GrTest.java) is from [Dimacs 9 Challenge](http://www.diag.uniroma1.it/challenge9/download.shtml). 
