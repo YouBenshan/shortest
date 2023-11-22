@@ -17,8 +17,9 @@ import java.util.Random;
  * @author You Benshan
  */
 public class GraphGenerater {
-    private GraphGenerater(){
+    private GraphGenerater() {
     }
+
     public static List<Triple<Integer, Integer, DoubleDoublePair>> generate(Graph<Integer, DefaultWeightedEdge> graph) {
         List<Triple<Integer, Integer, DoubleDoublePair>> list = new ArrayList<>();
         for (DefaultWeightedEdge e : graph.edgeSet()) {
